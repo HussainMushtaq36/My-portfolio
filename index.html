@@ -35,14 +35,41 @@
             margin:0 23px;
 
         }
+        .leftnav{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content:space-around;
+            margin: 80px 0px;
+            align-items: center;
+        }
+         .firstsection >div{
+            width: 30%;
+         }
+        
+        .rightsection img{
+            width: 80%;
+            transition: .3s ease;
+        }
+        .rightsection img:hover{
+             scale: 1.1;   
+        }
+        .leftsection {
+            font-size: 3rem;
+        }
+        .purple{
+            color: rgb(111, 63, 156);
+        }
+
 
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="left">Hussain_portfolio</div>
-            <div class="right">
+            <div class="leftnav">Hussain_portfolio</div>
+            <div class="rightnav">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -53,5 +80,16 @@
             </div>
     </nav>
     </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hi, my name is <span class="purple"> Hussain Mushtaq</span></div>
+                <div>and I am a very passionate student who wants to grow.</div>
+            </div>
+            <div class="rightsection">
+                <img src="pic.png">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
