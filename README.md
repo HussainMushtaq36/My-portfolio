@@ -1,2 +1,2 @@
 # My-portfolio
-It will tell u about me and my academic history along with my understanding of different concepts
+It will tell u about me and my academic history along with my understanding of different concepts some work that i have done 
