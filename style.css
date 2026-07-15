@@ -1,95 +1,179 @@
- 
-        *{
-            margin:0;
-            padding:0;
-        }
-        body{
-            background-color: rgb(0, 0, 33);
-            color:white;
-            font-family: 'Poppins' sans-serif;
-        }
-        nav{
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: rgb(4, 4, 68);
-            height: 80px;
-         
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
+ * {
+     margin: 0;
+     padding: 0;
+ }
 
-        }
-        nav ul li{
-            list-style: none;
-            margin:0 23px;
+ body {
+     background-color: rgb(0, 0, 33);
+     color: white;
+     font-family: 'Poppins' sans-serif;
+ }
 
-        }
-        nav ul li a{
-            text-decoration: none;
-            color:white;
-        }
-        nav ul li a:hover{
-            color:lavender;
-            font-size: 1.01em;
-            
-        }
-        .leftnav{
-            font-size: 1.5rem;
-        }
-        .firstsection{
-            display: flex;
-            justify-content:space-around;
-            margin: 80px 0px;
-            max-height: 120vh;
-            
-           
-            
-        }
-         .firstsection >div{
-            width: 30%;
-         }
-        
-        .rightsection img{
-            width: 80%;
-            transition: .3s ease;
-        }
-        .rightsection img:hover{
-             scale: 1.1;   
-        }
-        .rightsection{
-            align-items: baseline;
-             max-height: 100vh;
-        }
-        .leftsection {
-            font-size: 2.5rem;
-            
-        }
-        .purple{
-            color: rgb(111, 63, 156);
-        }
-        #element{
-            color:rgb(111, 63, 151);
-        }
-        main hr{
-            margin: 20px 80px;
-            padding : auto;
-        }
-        .gray-text{
-            color:gray
-        }
-        .thirdsecton h1{
-            font-size: 1.9rem;
-            text-align: auto;
-            margin: auto;
-        }
-        .thirdsecton{
-            max-width: 80vw;
-            margin: auto;
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgb(4, 4, 68);
+     height: 80px;
 
-        }
-        
-   
+ }
 
+ nav ul {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ nav ul li {
+     list-style: none;
+     margin: 0 23px;
+
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav ul li a:hover {
+     color: lavender;
+     font-size: 1.01em;
+
+ }
+
+ .leftnav {
+     font-size: 1.5rem;
+ }
+
+ .firstsection {
+     display: flex;
+     justify-content: space-around;
+     margin: 80px 0px;
+     max-height: 100vh;
+
+
+ }
+ h1 {
+    font-size: 1.9rem;}
+
+ .firstsection>div {
+     width: 30%;
+ }
+
+ .rightsection img {
+     width: 80%;
+     transition: .3s ease;
+ }
+
+ .rightsection img:hover {
+     scale: 1.1;
+ }
+
+ .rightsection {
+     align-items: baseline;
+     max-height: 100vh;
+ }
+
+ .leftsection {
+     font-size: 2.5rem;
+
+ }
+
+ .purple {
+     color: rgb(111, 63, 156);
+ }
+
+ #element {
+     color: rgb(111, 63, 151);
+ }
+
+ main hr {
+     margin: 20px 80px;
+     padding: auto;
+ }
+
+ .gray-text {
+     color: gray
+ }
+
+ .secondsection {
+     min-height: 80vh;
+
+     margin: 0px 80px;
+
+
+ }
+
+ .info {
+
+     display: flex;
+     margin-top: 7%;
+     
+     row-gap: 20px ;
+     display: flex;
+     justify-content: space-evenly;
+     margin: 80px 0px;
+     max-height: 100vh;
+ }
+ .aboutleft{
+    max-width: 50%;
     
+ }
+ .aboutright{
+    max-width: 50%;
+ }
+ .secondsection .aboutright img{
+    width: 368px;
+    
+  }
+ .secondsection h1 {
+    font-size: 1.9rem;
+    margin-left: 20px;
+}
+
+ .thirdsection {
+     max-width: 80vw;
+     
+     margin: auto;
+
+ }
+ 
+ .name{
+    padding: 20px 10px;
+ }
+ .proj{
+    display:flex;
+    border : 2px solid white;
+    padding:10px;
+    margin: 5px;
+    justify-content: space-between;    
+   
+ }
+ .projleft{
+    width: 75%;
+ }
+ .projright img{
+       width: 100px;
+    height: 100px;
+    position: relative;
+    margin-right: 50px;
+    animation: swing 2s ease-in-out infinite;
+ }
+ 
+.projright img:hover{
+    scale: 1.2;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
