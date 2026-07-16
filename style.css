@@ -112,7 +112,7 @@
      row-gap: 20px ;
      display: flex;
      justify-content: space-evenly;
-     margin: 80px 0px;
+     margin: 40px 0px;
      max-height: 100vh;
  }
  .aboutleft{
@@ -129,6 +129,7 @@
  .secondsection h1 {
     font-size: 1.9rem;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
  .thirdsection {
@@ -137,14 +138,16 @@
      margin: auto;
 
  }
- 
+ .h1{
+    margin-bottom: 18px;
+ }
  .name{
-    padding: 20px 10px;
+    padding: 30px 20px;
  }
  .proj{
     display:flex;
     border : 2px solid white;
-    padding:10px;
+    padding: 20px;
     margin: 5px;
     justify-content: space-between;    
    
@@ -163,6 +166,9 @@
 .projright img:hover{
     scale: 1.2;
 }
+.proj p{
+    padding-top: 10px;
+}
 
 @keyframes swing {
     0% {
@@ -176,4 +182,93 @@
     100% {
         transform: rotate(-10deg);
     }
+
+    
+    
+}
+.fourthsection{
+
+    height: 30vh;
+    margin-bottom: 10px;
+    padding: 10px;
+     max-width: 80vw;
+     
+     margin: auto;
+}
+@keyframes attention {
+
+    /* Normal */
+    0% {
+        transform: translateX(0) translateY(0) scale(1);
+    }
+
+    /* Shiver */
+    5% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    10% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    15% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    20% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    25% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    /* Pop forward */
+    35% {
+        transform: scale(1.25);
+    }
+
+    /* Return */
+    50% {
+        transform: scale(1);
+    }
+
+    /* Stay still before repeating */
+    100% {
+        transform: scale(1);
+    }
+}
+.name{
+    border-bottom: 3px solid rgb(77, 59, 77);
+    padding: 1.5px;
+   
+}
+h2{
+    margin-bottom: 12px ;
+    margin-left: 15px;
+    
+    
+    display: inline-block;
+    border-bottom: 3px solid rgb(77, 59, 77);
+   
+}
+.contactmedium{
+    display: flex;
+    justify-content: space-between;
+        display: flex;
+    justify-content: space-between;
+    padding: 0px 61px;
+    margin: 0px 77px;
+
+}
+.fourthsection .logo img{
+        width: 85px;
+        animation: attention 3s infinite;
+        padding: 30px;
+
+
+    }
+footer{
+    height: 30vh;
+       background-color: rgb(34 34 77);
 }
