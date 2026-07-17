@@ -20,20 +20,22 @@
             <div class="leftnav">Hussain_portfolio</div>
             <div class="rightnav">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#About">skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
 
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstsection">
+        <section class="firstsection" id="Home">
             <div class="leftsection">
-                <div>Hi, my name is <br> <span class="purple"> Hussain Mushtaq</span></div>
-                <div>and I am a very passionate student</div>
+                <div>Hi, my name is <span class="purple"> Hussain Mushtaq</span></div>
+                <div>and I am doing my bachelor the <br> from the FAST NUCES and i <br> am a very passionate student
+                </div>
                 <span id="element"></span>
             </div>
             <div class="rightsection">
@@ -41,7 +43,7 @@
             </div>
         </section>
         <hr>
-        <section class="secondsection">
+        <section class="secondsection" id="About">
             <h1>A little About me</h1>
             <div class="info">
                 <div class="aboutleft">
@@ -67,7 +69,8 @@
             </div>
         </section>
         <hr>
-        <section class="thirdsection">
+        <!--
+        <section class="thirdsection" id="Projects">
             <span class="gray-text">What I have done so far</span>
             <h1>Work Experience</h1>
             <div class="experience">
@@ -91,6 +94,7 @@
                                 <a href="/">
                                     <img src="pic.png" alt="u can add whatever u like">
                                 </a>
+                                <figcaption>Click to see Code</figcaption>
                             </div>
                         </div>
                     </li>
@@ -112,6 +116,7 @@
                                 <a href="/">
                                     <img src="pic.png" alt="u can add whatever u like">
                                 </a>
+                                <figcaption>Click to see Code</figcaption>
                             </div>
                         </div>
                     </li>
@@ -133,6 +138,7 @@
                                 <a href="/">
                                     <img src="pic.png" alt="u can add whatever u like">
                                 </a>
+                                <figcaption>Click to see Code</figcaption>
                             </div>
                         </div>
                     </li>
@@ -157,6 +163,7 @@
                                 <a href="/">
                                     <img src="pic.png" alt="u can add whatever u like">
                                 </a>
+                                <figcaption>Click to see Code</figcaption>
                             </div>
                         </div>
                     </li>
@@ -167,9 +174,75 @@
             </div>
 
         </section>
+    -->
+        <section class="fifth">
+            <h1>Skills</h1>
+            <ul>
+                <li>
+                    <h3>Ai</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
+                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
+                        obcaecati molestiae vel numquam temporibus.</p>
+                </li>
+                <li>
+                    <h3>webs</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
+                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
+                        obcaecati molestiae vel numquam temporibus.</p>
+                </li>
+                <li>
+                    <h3>resoing</h3><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
+                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
+                        obcaecati molestiae vel numquam temporibus.</p>
+                </li>
+                <li>
+                    <h3>design</h3><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
+                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
+                        obcaecati molestiae vel numquam temporibus.</p>
+                </li>
+            </ul>
+        </section>
         <hr>
-        <section class="fourthsection">
-            <h2>Contact me</h2>
+        <section class="newthird">
+            <h1>Projects</h1>
+            <div class="projects">
+                <div class="track">
+                    <a href=""><img src="pic.png" alt=""></a>
+                    <a href=""><img src="whatsapp.png" alt=""></a>
+                    <a href=""><img src="instagram.png" alt=""></a>
+                    <a href=""><img src="facebook.png" alt=""></a>
+
+                    <!-- Duplicate the images -->
+                    <a href=""><img src="pic.png" alt=""></a>
+                    <a href=""><img src="whatsapp.png" alt=""></a>
+                    <a href=""><img src="instagram.png" alt=""></a>
+                    <a href=""><img src="facebook.png" alt=""></a>
+
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fourthsection" id="Contact">
+            <h2>Contact us</h2>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Klaus Micklson" required>
+                <br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="abc@gmail.com " required>
+                <br><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" required>
+                <br><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message"></textarea>
+
+            </form>
             <div class="contactmedium">
 
                 <div class="logo"><a href="/"><img src="whatsapp.png" alt="logo of medium"></a></div>
@@ -192,7 +265,9 @@
             backSpeed: 40,
             backDelay: 1000,
             showCursor: false,
-            startdelay: 1500
+            startdelay: 1500,
+            loop: Infinity
+
         });</script>
 </body>
 
