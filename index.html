@@ -27,6 +27,7 @@
                     <li><a href="#Contact">Contact Me</a></li>
                 </ul>
             </div>
+            <div class="btn"><button class="button">Get Started</button></div>
         </nav>
     </header>
     <main>
@@ -176,34 +177,29 @@
     -->
         <section class="fifth">
             <h1>Skills</h1>
-            <ul>
-                <li>
-                    <h3>Ai</h3>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
-                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
-                        obcaecati molestiae vel numquam temporibus.</p>
-                </li>
-                <li>
-                    <h3>webs</h3>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
-                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
-                        obcaecati molestiae vel numquam temporibus.</p>
-                </li>
-                <li>
-                    <h3>resoing</h3><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
-                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
-                        obcaecati molestiae vel numquam temporibus.</p>
-                </li>
-                <li>
-                    <h3>design</h3><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem deserunt voluptatum
-                        nobis id cumque laborum exercitationem expedita debitis ut fuga, ex voluptates autem fugiat
-                        obcaecati molestiae vel numquam temporibus.</p>
-                </li>
-            </ul>
+            <div class="cardbox">
+                <div class="card">
+                    <h5>Web development</h5><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, non?Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Accusamus, obcaecati.</p>
+                </div>
+                <div class="card">
+                    <h5>Reasoning</h5><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, non?Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <h5>AI</h5><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, non?Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Molestiae, sequi tempore.</p>
+                </div>
+                <div class="card">
+                    <h5>Assembly language</h5><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, non? Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Tempora.</p>
+                </div>
+
+            </div>
         </section>
         <hr>
         <section class="newthird">
@@ -228,21 +224,37 @@
         <hr>
         <section class="fourthsection" id="Contact">
             <h2>Contact us</h2>
-            <form action="">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" placeholder="Klaus Micklson" required>
-                <br><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" placeholder="abc@gmail.com " required>
-                <br><br>
-                <label for="subject">Subject</label><br>
-                <input type="text" id="subject" required>
-                <br><br>
-                <label for="message">Message</label><br>
-                <textarea name="message" id="message"></textarea><br><br>
-                <button>Submit</button>
+            <div class="form-contect">
+                <form action="">
+                    <div class="row">
+                        <div class="fields">
+                            <label class="input" for="firstname">First Name:</label>
+                            <input class="input0" type="text" id="firstnam" placeholder="Klaus" required>
+                        </div>
+                        <div class="fields">
+                            <label class="input" for="lastname">Last Name:</label>
+                            <input class="input0" type="text" id="lastnam" placeholder="Miklson" required>
+                        </div>
+                    </div>
+                    <br><br>
+                    <!-- <div class="field"> -->
+                    <label for="email">Email:</label>
+                    <input class="input1" type="email" id="email" placeholder="abc@gmail.com " required>
+                    <!-- </div> -->
+                    <br><br>
+                    <div class="field">
+                        <label for="subject">Subject:</label>
+                        <input class="input1" type="text" id="subject" required>
+                    </div>
+                    <br>
+                    <label for="messages">Message:</label>
+                    <textarea class="textaria" name="text" rows="9" cols="12" id="messages"></textarea>
 
-            </form>
+                    <button>Submit</button>
+
+                </form>
+            </div>
+
 
             <h4>Other social media platforms for contacting</h4>
             <div class="contactmedium">
@@ -254,20 +266,47 @@
             </div>
             <hr>
         </section>
-        <section id="hammad"></section>
-       
+
+
+
     </main>
     <footer>
         <div class="footer">
-            <div class="leftfooter">Hussain_portfolio</div>
-            <div class="rightfooter">
-                <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#About">skills</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Contact">Contact Us</a></li>
-                </ul>
+            <div class="footeradjustment">
+                <div class="leftfooter">
+                    <div class="f1">Hussain_portfolio</div>
+
+                </div>
+                <div>
+                    <div class="center"> Projects</div>
+
+                </div>
+                <div class="rightfooter">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#About">skills</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="bottomfooter">
+                    <div class="f2">Availability: <span>24 hours</span></div>
+                    <div class="number">03259517115</div>
+                    <div class="address">
+                        <Address>J2 Block, Johar Town, Lahore</Address>
+                    </div>
+                </div>
+                <div class="middlefooter">
+
+                    <ul class="list">
+                        <li>PacMan</li>
+                        <li>Shooting Star</li>
+                        <li>MatchPal</li>
+                    </ul>
+                </div>
             </div>
 
         </div>
