@@ -263,7 +263,7 @@ color: rgb(74, 74, 109);
     margin-bottom: 3px;
     padding: 0px 0px 0px 0px;
     width: 100vw;
-    border: 2px solid red;
+       padding: 13px 0px;
      
      
 }
@@ -370,17 +370,41 @@ form{
     display: flex;
 flex-direction: column;
     width: 100%;
+    padding-left: 50px;
    
 }
 
 .input0{
-    width: 90%;
+    width: 100%;
     margin: 0px;
-    border: 2px solid red;
+  
+    background-color: rgb(28, 28, 47);
+    color: white;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: currentcolor currentcolor rgb(67, 67, 100);
+    border-image: none;
+    border-bottom: 2px solid rgb(67, 67, 100);
     
 }
 .input1{
-    width: 100%;
+    width: 45%;
+    background-color: rgb(28, 28, 47);
+    color: white;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: currentcolor currentcolor rgb(67, 67, 100);
+    border-image: none;
+    border-bottom: 2px solid rgb(67, 67, 100);
+}
+.emailss{
+    margin:0px 30px;
+    padding: 0px 20px;
+    
+}
+.texting{
+     margin:0px 30px;
+    padding: 0px 20px;
 }
 label{
     margin:0px 0px
@@ -486,11 +510,11 @@ footer{
 }
 .form-contect{
     width: 100%;
-    border: 1px solid red
+    
 }
 .textaria{
     width: 100%;
-    border: 1px solid red;
+   
 }
 
 
@@ -527,4 +551,15 @@ h5{
     font-size: 30px;
     color: gray;   
      padding: 0px 5px ;
+}
+.textaria{
+   
+    background-color: rgb(28, 28, 47);
+    color: white;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: currentcolor currentcolor rgb(67, 67, 100);
+    border-image: none;
+    border-bottom: 2px solid rgb(67, 67, 100);
+    margin-bottom: 10px;
 }
