@@ -265,7 +265,7 @@ color: rgb(74, 74, 109);
 
 .fourthsection{
 
-        height: 70.5vh;
+        height: 73.5vh;
     margin-bottom: 3px;
     padding: 0px 0px 0px 0px;
     width: 100vw;
@@ -624,7 +624,7 @@ body{
         #3A0CA3,
         #4361EE
     );
-    height: 91.5vh;
+    height: 93.5vh;
 }
 /* .fourthsection{
     background: linear-gradient(
@@ -673,3 +673,14 @@ body{
 .card:hover p{
     color: white;
 }
+button {
+    background:linear-gradient(45deg, rgb(67 27 225),rgb(27, 112, 192),rgb(140, 59, 216));
+    color: rgb(243, 240, 240);
+    margin: 0px 50px;
+    font-size: 18px;
+    border: rgb(230, 195, 230) 2px solid;
+    border-radius: 9px;
+    /* margin: -13px; */
+    /* margin-left: 50px; */
+    /* margin-top: -5px; */
+    padding: 3px 17px;}
