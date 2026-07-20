@@ -335,8 +335,8 @@ color: rgb(74, 74, 109);
         display: flex;
     justify-content: center;
     gap: 75px;
-    padding-top: 10px;
-    margin: 0px 0px 0px 25px;
+    padding-top: 110px;
+    margin: 0px 0px 0px 300px;
 
 }
 .carrier{
@@ -602,5 +602,11 @@ nav{
     min-width: 0;
     
 }
-
-
+#lastnam{
+    padding: right 50px; 
+    width: 90%;
+}
+#messages{
+    padding: right 50px; 
+    width: 95.5%;
+}
