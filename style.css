@@ -46,13 +46,15 @@
      font-size: 1.01em;
 
  }
- .button{
-        margin-right: 30px;
+.button {
+    margin-right: 30px;
     background-color: rgb(3 3 71);
     border-radius: 5px;
-    scale: 1.2;
+    font-size: 1.3rem;
     cursor: pointer;
- }
+    border: 2px solid #585081;
+    padding: 10px 8px;
+}
 
  .leftnav {
      font-size: 1.5rem;
@@ -64,6 +66,7 @@
      justify-content: space-between;
      margin: 80px 0px;
      max-height: 100vh;
+     align-items: center;
 
 
  }
@@ -95,7 +98,7 @@
  }
 
  .leftsection {
-     font-size: 2.5rem;
+     font-size: 30px;
      
      width: 60%;
      margin-top: 35px;
@@ -217,17 +220,20 @@ color: rgb(74, 74, 109);
 }
 
 .newthird h1{
-     margin: 0px 30px;
+        margin: 0px 30px;
     padding: 0px 20px;
-
+    margin-bottom: 62px;
 }
 
 .projects{
-    width: 73%;
+    height: 30vh;
+    width: 92%;
     overflow: hidden;
     overflow-x: hidden;
    
-    margin : 80px auto;
+    margin : 0px 50px;
+    margin-right: 50px;
+   
 
 }
 
@@ -235,7 +241,7 @@ color: rgb(74, 74, 109);
     display: flex;
     width: 50%;
     width: max-content;
-    animation: scroll 18s linear infinite;
+     animation: scroll 18s linear infinite; 
     justify-content: center;
 }
 .track img:hover{
@@ -259,7 +265,7 @@ color: rgb(74, 74, 109);
 
 .fourthsection{
 
-        height: 100vh;
+        height: 70.5vh;
     margin-bottom: 3px;
     padding: 0px 0px 0px 0px;
     width: 100vw;
@@ -325,18 +331,21 @@ color: rgb(74, 74, 109);
     
 }
 .contactmedium{
-    display: flex;
-    justify-content: space-between;
+    
         display: flex;
-    justify-content: space-between;
-    padding: 0px 61px;
-    margin: 0px 77px;
+    justify-content: center;
+    gap: 75px;
+    padding-top: 10px;
+    margin: 0px 0px 0px 25px;
 
 }
-.fourthsection .logo img{
-        width: 85px;
+.carrier{
+    padding-top: 30px;
+}
+.logo img{
+        width: 35px;
         animation: attention 3s infinite;
-        padding: 30px;
+        padding: 0px;
 
 
     }
@@ -388,7 +397,7 @@ flex-direction: column;
     
 }
 .input1{
-    width: 45%;
+    width: 50%;
     background-color: rgb(28, 28, 47);
     color: white;
     border-width: medium medium 2px;
@@ -403,8 +412,8 @@ flex-direction: column;
     
 }
 .texting{
-     margin:0px 30px;
-    padding: 0px 20px;
+        margin: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 20px;
 }
 label{
     margin:0px 0px
@@ -427,6 +436,9 @@ footer{
     display: inline-block;
     border-bottom: 3px solid rgb(103 97 103);
 }
+.fifth{
+    height: 52vh;
+}
 p{
    
     font-size: 1.2rem;
@@ -443,7 +455,7 @@ p{
     margin-bottom: 15px;
 }
 footer{
-    height: 25vh;
+    height: 35vh;
    
 }
 .footeradjustment {
@@ -461,6 +473,7 @@ footer{
  }
  .rightfooter{
     margin-right: 30px;
+    
  }
 
  .leftfooter {
@@ -475,13 +488,13 @@ footer{
 
  }
 
- .footer ul li {
+ footer ul li {
      list-style: none;
      margin: 0px 0px 0px 30px;
 
  }
 
- .footer ul li a {
+ footer ul li a {
      text-decoration: none;
      color: grey;
  }
@@ -532,25 +545,39 @@ footer{
    
     width: 210px;
     height: 250px;
-    background-color:rgb(21 21 51);
+    background-color:white;
     border-radius: 20px;
+    color: black;
+    padding: 5px;
+    
 
 }
 .card:hover{
-    scale: 1.1;
-    background-color: rgb(6 6 61);
+    transform: scale(1.1);
+    transition: 5ms;
+    background-color: red;
+    color: #ffffff;
+    border:red dashed;
+    box-shadow:#585081;
+ transition: transform 0.3s ease;
 }
 
 .card p{
     margin: 0px;
     padding: 0px 5px ;
     scale: 1;
-    color: gray;
+    color: rgb(10, 10, 10);
+    text-align: center;
 }
 h5{
-    font-size: 30px;
-    color: gray;   
-     padding: 0px 5px ;
+        font-size: 30px;
+    color: #121111;
+    /* padding: 0px 5px; */
+    /* justify-self: center; */
+    /* align-self: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
 }
 .textaria{
    
@@ -563,3 +590,17 @@ h5{
     border-bottom: 2px solid rgb(67, 67, 100);
     margin-bottom: 10px;
 }
+nav{
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.info{
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.aboutleft p,.aboutright{
+    min-width: 0;
+    
+}
+
+
