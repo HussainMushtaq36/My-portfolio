@@ -424,10 +424,7 @@ button{
       margin:0px 50px;
 
 }
-footer{
-    /* height: 2vh;
-       background-color: rgb(34 34 77); */
-}
+
 
 .fifth h3{
        margin: 0px 50px;
@@ -668,3 +665,7 @@ button {
     border-radius: 9px;
     
     padding: 3px 17px;}
+
+    button:hover{
+        cursor:pointer;
+    }
