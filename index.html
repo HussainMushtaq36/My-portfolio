@@ -12,6 +12,18 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "h7zsCjJ7CwAXxjvXi",
+            });
+        })();
+    </script>
+    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -242,11 +254,12 @@
                     <div class="row">
                         <div class="fields">
                             <label class="input" for="firstname">First Name:</label>
-                            <input class="input0" type="text" id="firstnam" placeholder="Klaus" required>
+                            <input class="input0" name="name" type="text" id="name" placeholder="Klaus" required>
                         </div>
                         <div class="fields">
                             <label class="input" for="lastname">Last Name:</label>
-                            <input class="input0" type="text" id="lastnam" placeholder="Miklson" required>
+                            <input class="input0" name="lastname" type="text" id="lastname" placeholder="Miklson"
+                                required>
                         </div>
                     </div>
                     <br><br>
@@ -254,20 +267,21 @@
                     <div class="emailss">
 
                         <label for="email">Email:</label> <br>
-                        <input class="input1" type="email" id="email" placeholder="abc@gmail.com " required>
+                        <input class="input1" name="email" type="email" id="email" placeholder="abc@gmail.com "
+                            required>
                     </div>
                     <!-- </div> -->
                     <br><br>
                     <div class="emailss">
                         <label for="subject">Subject:</label><br>
-                        <input class="input1" type="text" id="subject" required>
+                        <input class="input1" name="subject" type="text" id="subject" required>
                     </div>
                     <br>
                     <div class="texting">
                         <label for="messages">Message:</label><br>
-                        <textarea class="textaria" name="text" rows="9" cols="12" id="messages"></textarea>
+                        <textarea class="textaria" name="message" rows="9" cols="12" id="messages"></textarea>
                     </div>
-                    <button>Submit</button>
+                    <button type="submit" onclick="sendMail()">Submit</button>
 
                 </form>
             </div>
@@ -323,12 +337,12 @@
                 </div>
                 <div class="contactmedium">
 
-                            <div class="logo"><a href="/"><img src="whatsapp.png" alt="logo of medium"></a></div>
-                            <div class="logo"><a href="/"><img src="instagram.png" alt="logo of medium"></a></div>
-                            <div class="logo"><a href="/"><img src="facebook.png" alt="logo of medium"></a></div>
-                            <div class="logo"><a href="/"><img src="twitter.png" alt="logo of medium"></a></div>
-                       
-                    </div>
+                    <div class="logo"><a href="/"><img src="whatsapp.png" alt="logo of medium"></a></div>
+                    <div class="logo"><a href="/"><img src="instagram.png" alt="logo of medium"></a></div>
+                    <div class="logo"><a href="/"><img src="facebook.png" alt="logo of medium"></a></div>
+                    <div class="logo"><a href="/"><img src="twitter.png" alt="logo of medium"></a></div>
+
+                </div>
             </div>
 
         </div>

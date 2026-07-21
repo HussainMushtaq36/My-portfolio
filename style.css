@@ -626,20 +626,6 @@ body{
     );
     height: 93.5vh;
 }
-/* .fourthsection{
-    background: linear-gradient(
-        145deg,
-        #021024,
-        #052659,
-        #5483B3,
-        #7E5BEF
-    );
-} */
-/* .fourthsection {
-    background: linear-gradient(135deg, #0f172a, #1e3a8a, #4c1d95);
-    padding: 30px;
-    border-radius: 20px;
-} */
 .input0,.input1,.textaria {
     background: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255,255,255,0.2);
@@ -680,7 +666,5 @@ button {
     font-size: 18px;
     border: rgb(230, 195, 230) 2px solid;
     border-radius: 9px;
-    /* margin: -13px; */
-    /* margin-left: 50px; */
-    /* margin-top: -5px; */
+    
     padding: 3px 17px;}
