@@ -123,7 +123,7 @@
  }
 
  .secondsection {
-     min-height: 70vh;
+     min-height: 75vh;
 
          margin: 0px 80px 0px 10p
 
@@ -138,9 +138,10 @@
      
      display: flex;
      justify-content: space-between;
-     margin: 40px 30px;
+     margin: 15px 30px 40px 30px;
      padding: 0px 20px;
      max-height: 100vh;
+   
  }
  .aboutleft{
     max-width: 50%;
@@ -222,11 +223,11 @@ color: rgb(74, 74, 109);
 .newthird h1{
         margin: 0px 30px;
     padding: 0px 20px;
-    margin-bottom: 62px;
+    margin-bottom: 26px;
 }
 
 .projects{
-    height: 30vh;
+    height: 25vh;
     width: 92%;
     overflow: hidden;
     overflow-x: hidden;
@@ -269,7 +270,7 @@ color: rgb(74, 74, 109);
     margin-bottom: 3px;
     padding: 0px 0px 0px 0px;
     width: 100vw;
-       padding: 13px 0px;
+     padding: 0px 0px 13px 0px;
      
      
 }
@@ -356,7 +357,7 @@ color: rgb(74, 74, 109);
 
     }
 form{
-    margin: 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 /* #message,#lastname,#firstname,#subject,#email{
     background-color: rgb(28 28 47);
@@ -397,7 +398,7 @@ flex-direction: column;
     
 }
 .input1{
-    width: 50%;
+    width: 96.5%;
     background-color: rgb(28, 28, 47);
     color: white;
     border-width: medium medium 2px;
@@ -497,7 +498,7 @@ footer{
  }
  .bottomfooter > div{
     padding: 12px;
-    margin-left: 50px;
+    margin-left: 44px;
  }
  .middlefooter ul{
     display: block;
@@ -582,7 +583,7 @@ h5{
     border-color: currentcolor currentcolor rgb(67, 67, 100);
     border-image: none;
     border-bottom: 2px solid rgb(67, 67, 100);
-    margin-bottom: 10px;
+        margin-bottom: 27px;
 }
 nav{
     flex-wrap: wrap;
@@ -632,7 +633,7 @@ body{
     outline: none;
     font-size: 16px;
 }
-#lastnam{
+#lastname{
     padding: right 52px; 
     width: 85%;
 }
